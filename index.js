@@ -3,6 +3,7 @@ const express = require('express')
 const cors = require('cors')
 
 require('./connection/db')
+require('./schema/userSchema')
 
 const userRoute = require('./routes/userRoutes')
 
